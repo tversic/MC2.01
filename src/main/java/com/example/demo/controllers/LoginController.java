@@ -59,6 +59,7 @@ public class LoginController {
             newUser.setPassword(pass);
             return "index";
         }
+        System.out.println("test");
         return "register";
     }
 
